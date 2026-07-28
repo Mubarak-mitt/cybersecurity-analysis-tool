@@ -1,0 +1,7 @@
+2026-07-28 08:00:12 INFO User login successful: john
+2026-07-28 08:02:44 WARNING Failed login attempt: admin
+2026-07-28 08:03:55 ERROR Database connection failed
+2026-07-28 08:05:22 WARNING Failed login attempt: root
+2026-07-28 08:08:11 INFO File uploaded
+2026-07-28 08:10:35 ERROR Unauthorized access detected
+2026-07-28 08:12:05 INFO User logout
