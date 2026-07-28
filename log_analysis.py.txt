@@ -20,3 +20,4 @@ with open(logfile, "r") as file:
         for keyword in keywords:
             if keyword.lower() in line.lower():
                 print(f"[Alert] Line {line_number}: {line.strip()}")
+
