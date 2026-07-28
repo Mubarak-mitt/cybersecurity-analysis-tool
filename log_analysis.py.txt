@@ -20,3 +20,26 @@ with open(logfile, "r") as file:
         for keyword in keywords:
             if keyword.lower() in line.lower():
                 print(f"[Alert] Line {line_number}: {line.strip()}")
+
+import sys
+
+keywords = [
+    "failed",
+    "denied",
+    "unauthorized",
+    "malware",
+    "attack",
+    "error"
+]
+
+if len(sys.argv) < 2:
+    print("Usage: python log_analysis.py sample.log")
+    exit()
+
+logfile = sys.argv[1]
+
+with open(logfile, "r") as file:
+    for line_number, line in enumerate(file, start=1):
+        for keyword in keywords:
+            if keyword.lower() in line.lower():
+                print(f"[Alert] Line {line_number}: {line.strip()}")

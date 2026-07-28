@@ -9,3 +9,15 @@ Malware signature identified
 Connection established
 
 Access denied for user guest
+
+User admin logged in successfully
+
+Failed password attempt for root
+
+Unauthorized access detected
+
+Malware signature identified
+
+Connection established
+
+Access denied for user guest
